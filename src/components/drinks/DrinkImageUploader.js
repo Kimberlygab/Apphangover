@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import ImageUploader from './ImageUploader';
+import ImageUploader from '../common/ImageUploader';
 
 const DrinkImageUploader = ({ onImageUploaded }) => {
   const [imageUrl, setImageUrl] = useState('');
