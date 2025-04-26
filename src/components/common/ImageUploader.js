@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { useStorage } from '@/context/storagecontext';
+import { useStorage } from '@/context/StorageContext';
 
 const ImageUploader = ({ onUploadComplete, userId, className = '' }) => {
   const { uploading, progress, error, upload } = useStorage();
