@@ -1,7 +1,5 @@
 "use client";
 
-"use client";
-
 import { useState, useEffect, useContext } from 'react';
 import DrinkContext from '@/context/drink/DrinkContext';
 import DrinkItem from './DrinkItem';
