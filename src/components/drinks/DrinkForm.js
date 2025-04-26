@@ -1,7 +1,5 @@
 "use client";
 
-"use client";
-
 import { useState, useContext } from 'react';
 import { useRouter } from 'next/navigation';
 import DrinkContext from '@/context/drink/DrinkContext';
